@@ -22,5 +22,12 @@
       <guid>http://localhost:1313/posts/chernobyl/</guid>
       <description>On April 26, 1986, reactor number four at the Chernobyl Nuclear Power Plant exploded. What followed was not just a nuclear disaster — it was one of the most catastrophic cover-ups in modern history.</description>
     </item>
+    <item>
+      <title>D.B. Cooper: The Only Unsolved Air Piracy in American History</title>
+      <link>http://localhost:1313/posts/db-cooper/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/db-cooper/</guid>
+      <description>On November 24, 1971, a man calling himself Dan Cooper hijacked a Northwest Orient flight, collected $200,000 in ransom, and parachuted into the night sky over the Pacific Northwest. He was never found. This is the full story.</description>
+    </item>
   </channel>
 </rss>

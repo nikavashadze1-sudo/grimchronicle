@@ -78,5 +78,33 @@
       <guid>http://localhost:1313/tags/soviet-union/</guid>
       <description></description>
     </item>
+    <item>
+      <title>American History</title>
+      <link>http://localhost:1313/tags/american-history/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/american-history/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Db Cooper</title>
+      <link>http://localhost:1313/tags/db-cooper/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/db-cooper/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fbi</title>
+      <link>http://localhost:1313/tags/fbi/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/fbi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hijacking</title>
+      <link>http://localhost:1313/tags/hijacking/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/hijacking/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
