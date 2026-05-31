@@ -5,6 +5,7 @@ languageCode = "en-us"
 paginate = 10
 
 [params]
+  gtmContainerId = "GTM-5TFJK5WD"
   description = "History's darkest chapters — crimes, disasters and cover-ups explained."
   author = "Grim Chronicle"
   defaultTheme = "dark"
