@@ -1,0 +1,5 @@
+/* Show cover image thumbnails on category and tag list pages.
+   PaperMod hides them by default via `.tag-entry .entry-cover { display: none }`. */
+.tag-entry .entry-cover {
+    display: block;
+}
