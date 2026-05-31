@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/categories/true-crime/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Dark-History</title>
+      <link>http://localhost:1313/categories/dark-history/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/dark-history/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -43,5 +43,40 @@
       <guid>http://localhost:1313/tags/zodiac-killer/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Chernobyl</title>
+      <link>http://localhost:1313/tags/chernobyl/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/chernobyl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cold War</title>
+      <link>http://localhost:1313/tags/cold-war/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cold-war/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cover-Up</title>
+      <link>http://localhost:1313/tags/cover-up/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cover-up/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nuclear Disaster</title>
+      <link>http://localhost:1313/tags/nuclear-disaster/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/nuclear-disaster/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Soviet Union</title>
+      <link>http://localhost:1313/tags/soviet-union/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/soviet-union/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
