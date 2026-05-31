@@ -40,11 +40,11 @@
         "name": "Google Tag - GA4",
         "type": "googtag",
         "parameter": [
-          {"type": "template", "key": "tagId", "value": "G-33CG1DMLH8"}
+          {"type": "TEMPLATE", "key": "tagId", "value": "G-33CG1DMLH8"}
         ],
         "fingerprint": "0",
         "firingTriggerId": ["2147479553"],
-        "tagFiringOption": "oncePerEvent",
+        "tagFiringOption": "ONCE_PER_EVENT",
         "monitoringMetadata": {"type": "MAP"},
         "consentSettings": {"consentStatus": "NOT_SET"}
       },
@@ -55,54 +55,54 @@
         "name": "GA4 - youtube_click",
         "type": "gaawe",
         "parameter": [
-          {"type": "template", "key": "eventName", "value": "youtube_click"},
-          {"type": "template", "key": "measurementIdOverride", "value": "{{Const - GA4 Measurement ID}}"},
+          {"type": "TEMPLATE", "key": "eventName", "value": "youtube_click"},
+          {"type": "TEMPLATE", "key": "measurementIdOverride", "value": "{{Const - GA4 Measurement ID}}"},
           {
-            "type": "list",
-            "key": "eventSettingsTable",
+            "type": "LIST",
+            "key": "eventParameters",
             "list": [
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "link_url"},
-                {"type": "template", "key": "parameter_value", "value": "{{Click URL}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "link_url"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{Click URL}}"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "link_text"},
-                {"type": "template", "key": "parameter_value", "value": "{{Click Text}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "link_text"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{Click Text}}"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "link_domain"},
-                {"type": "template", "key": "parameter_value", "value": "{{JS - Link Domain}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "link_domain"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{JS - Link Domain}}"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "click_location"},
-                {"type": "template", "key": "parameter_value", "value": "{{JS - Click Location}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "click_location"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{JS - Click Location}}"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "click_section"},
-                {"type": "template", "key": "parameter_value", "value": "{{JS - Click Section Heading}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "click_section"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{JS - Click Section Heading}}"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "page_type"},
-                {"type": "template", "key": "parameter_value", "value": "{{DLV - page_type}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "page_type"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{DLV - page_type}}"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "article_slug"},
-                {"type": "template", "key": "parameter_value", "value": "{{DLV - article_slug}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "article_slug"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{DLV - article_slug}}"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "article_title"},
-                {"type": "template", "key": "parameter_value", "value": "{{DLV - article_title}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "article_title"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{DLV - article_title}}"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "article_category"},
-                {"type": "template", "key": "parameter_value", "value": "{{DLV - article_category}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "article_category"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{DLV - article_category}}"}
               ]}
             ]
           }
         ],
         "fingerprint": "0",
         "firingTriggerId": ["30"],
-        "tagFiringOption": "oncePerEvent",
+        "tagFiringOption": "ONCE_PER_EVENT",
         "monitoringMetadata": {"type": "MAP"},
         "consentSettings": {"consentStatus": "NOT_SET"}
       },
@@ -113,42 +113,42 @@
         "name": "GA4 - outbound_click",
         "type": "gaawe",
         "parameter": [
-          {"type": "template", "key": "eventName", "value": "outbound_click"},
-          {"type": "template", "key": "measurementIdOverride", "value": "{{Const - GA4 Measurement ID}}"},
+          {"type": "TEMPLATE", "key": "eventName", "value": "outbound_click"},
+          {"type": "TEMPLATE", "key": "measurementIdOverride", "value": "{{Const - GA4 Measurement ID}}"},
           {
-            "type": "list",
-            "key": "eventSettingsTable",
+            "type": "LIST",
+            "key": "eventParameters",
             "list": [
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "link_url"},
-                {"type": "template", "key": "parameter_value", "value": "{{Click URL}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "link_url"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{Click URL}}"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "link_text"},
-                {"type": "template", "key": "parameter_value", "value": "{{Click Text}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "link_text"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{Click Text}}"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "link_domain"},
-                {"type": "template", "key": "parameter_value", "value": "{{JS - Link Domain}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "link_domain"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{JS - Link Domain}}"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "click_location"},
-                {"type": "template", "key": "parameter_value", "value": "{{JS - Click Location}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "click_location"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{JS - Click Location}}"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "page_type"},
-                {"type": "template", "key": "parameter_value", "value": "{{DLV - page_type}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "page_type"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{DLV - page_type}}"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "article_slug"},
-                {"type": "template", "key": "parameter_value", "value": "{{DLV - article_slug}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "article_slug"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{DLV - article_slug}}"}
               ]}
             ]
           }
         ],
         "fingerprint": "0",
         "firingTriggerId": ["31"],
-        "tagFiringOption": "oncePerEvent",
+        "tagFiringOption": "ONCE_PER_EVENT",
         "monitoringMetadata": {"type": "MAP"},
         "consentSettings": {"consentStatus": "NOT_SET"}
       },
@@ -159,30 +159,30 @@
         "name": "GA4 - scroll",
         "type": "gaawe",
         "parameter": [
-          {"type": "template", "key": "eventName", "value": "scroll"},
-          {"type": "template", "key": "measurementIdOverride", "value": "{{Const - GA4 Measurement ID}}"},
+          {"type": "TEMPLATE", "key": "eventName", "value": "scroll"},
+          {"type": "TEMPLATE", "key": "measurementIdOverride", "value": "{{Const - GA4 Measurement ID}}"},
           {
-            "type": "list",
-            "key": "eventSettingsTable",
+            "type": "LIST",
+            "key": "eventParameters",
             "list": [
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "percent_scrolled"},
-                {"type": "template", "key": "parameter_value", "value": "{{Scroll Depth Threshold}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "percent_scrolled"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{Scroll Depth Threshold}}"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "page_type"},
-                {"type": "template", "key": "parameter_value", "value": "{{DLV - page_type}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "page_type"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{DLV - page_type}}"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "article_slug"},
-                {"type": "template", "key": "parameter_value", "value": "{{DLV - article_slug}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "article_slug"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{DLV - article_slug}}"}
               ]}
             ]
           }
         ],
         "fingerprint": "0",
         "firingTriggerId": ["32"],
-        "tagFiringOption": "oncePerEvent",
+        "tagFiringOption": "ONCE_PER_EVENT",
         "monitoringMetadata": {"type": "MAP"},
         "consentSettings": {"consentStatus": "NOT_SET"}
       },
@@ -193,42 +193,42 @@
         "name": "GA4 - ad_impression",
         "type": "gaawe",
         "parameter": [
-          {"type": "template", "key": "eventName", "value": "ad_impression"},
-          {"type": "template", "key": "measurementIdOverride", "value": "{{Const - GA4 Measurement ID}}"},
+          {"type": "TEMPLATE", "key": "eventName", "value": "ad_impression"},
+          {"type": "TEMPLATE", "key": "measurementIdOverride", "value": "{{Const - GA4 Measurement ID}}"},
           {
-            "type": "list",
-            "key": "eventSettingsTable",
+            "type": "LIST",
+            "key": "eventParameters",
             "list": [
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "ad_slot"},
-                {"type": "template", "key": "parameter_value", "value": "{{DLV - ad_slot}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "ad_slot"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{DLV - ad_slot}}"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "ad_format"},
-                {"type": "template", "key": "parameter_value", "value": "{{DLV - ad_format}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "ad_format"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{DLV - ad_format}}"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "ad_client"},
-                {"type": "template", "key": "parameter_value", "value": "{{DLV - ad_client}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "ad_client"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{DLV - ad_client}}"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "ad_network"},
-                {"type": "template", "key": "parameter_value", "value": "adsense"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "ad_network"},
+                {"type": "TEMPLATE", "key": "value", "value": "adsense"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "page_type"},
-                {"type": "template", "key": "parameter_value", "value": "{{DLV - page_type}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "page_type"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{DLV - page_type}}"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "article_slug"},
-                {"type": "template", "key": "parameter_value", "value": "{{DLV - article_slug}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "article_slug"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{DLV - article_slug}}"}
               ]}
             ]
           }
         ],
         "fingerprint": "0",
         "firingTriggerId": ["33"],
-        "tagFiringOption": "oncePerEvent",
+        "tagFiringOption": "ONCE_PER_EVENT",
         "monitoringMetadata": {"type": "MAP"},
         "consentSettings": {"consentStatus": "NOT_SET"}
       },
@@ -239,42 +239,42 @@
         "name": "GA4 - ad_click",
         "type": "gaawe",
         "parameter": [
-          {"type": "template", "key": "eventName", "value": "ad_click"},
-          {"type": "template", "key": "measurementIdOverride", "value": "{{Const - GA4 Measurement ID}}"},
+          {"type": "TEMPLATE", "key": "eventName", "value": "ad_click"},
+          {"type": "TEMPLATE", "key": "measurementIdOverride", "value": "{{Const - GA4 Measurement ID}}"},
           {
-            "type": "list",
-            "key": "eventSettingsTable",
+            "type": "LIST",
+            "key": "eventParameters",
             "list": [
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "ad_slot"},
-                {"type": "template", "key": "parameter_value", "value": "{{DLV - ad_slot}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "ad_slot"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{DLV - ad_slot}}"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "ad_format"},
-                {"type": "template", "key": "parameter_value", "value": "{{DLV - ad_format}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "ad_format"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{DLV - ad_format}}"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "ad_client"},
-                {"type": "template", "key": "parameter_value", "value": "{{DLV - ad_client}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "ad_client"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{DLV - ad_client}}"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "ad_network"},
-                {"type": "template", "key": "parameter_value", "value": "adsense"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "ad_network"},
+                {"type": "TEMPLATE", "key": "value", "value": "adsense"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "page_type"},
-                {"type": "template", "key": "parameter_value", "value": "{{DLV - page_type}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "page_type"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{DLV - page_type}}"}
               ]},
-              {"type": "map", "map": [
-                {"type": "template", "key": "parameter", "value": "article_slug"},
-                {"type": "template", "key": "parameter_value", "value": "{{DLV - article_slug}}"}
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "article_slug"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{DLV - article_slug}}"}
               ]}
             ]
           }
         ],
         "fingerprint": "0",
         "firingTriggerId": ["34"],
-        "tagFiringOption": "oncePerEvent",
+        "tagFiringOption": "ONCE_PER_EVENT",
         "monitoringMetadata": {"type": "MAP"},
         "consentSettings": {"consentStatus": "NOT_SET"}
       },
@@ -285,12 +285,12 @@
         "name": "HTML - AdSense Tracker",
         "type": "html",
         "parameter": [
-          {"type": "template", "key": "html", "value": "<script>\n(function(){\n  if (window.__gcAdsenseTracker) return;\n  window.__gcAdsenseTracker = true;\n  var dl = window.dataLayer = window.dataLayer || [];\n  var seen = new WeakSet();\n  var lastFocusedAd = null;\n\n  function push(eventName, el) {\n    dl.push({\n      event: eventName,\n      ad_slot: el.getAttribute('data-ad-slot') || '',\n      ad_format: el.getAttribute('data-ad-format') || 'auto',\n      ad_client: el.getAttribute('data-ad-client') || ''\n    });\n  }\n\n  function scanImpressions() {\n    var ads = document.querySelectorAll('ins.adsbygoogle');\n    if (!ads.length || !('IntersectionObserver' in window)) return;\n    var io = new IntersectionObserver(function(entries){\n      entries.forEach(function(e){\n        if (e.isIntersecting && e.intersectionRatio >= 0.5 && !seen.has(e.target)) {\n          seen.add(e.target);\n          push('ad_impression', e.target);\n        }\n      });\n    }, { threshold: 0.5 });\n    ads.forEach(function(el){ if (!seen.has(el)) io.observe(el); });\n  }\n\n  function setupClickTracking() {\n    document.addEventListener('mousedown', function(ev){\n      var el = ev.target && ev.target.closest && ev.target.closest('ins.adsbygoogle');\n      lastFocusedAd = el || null;\n    }, true);\n    window.addEventListener('blur', function(){\n      setTimeout(function(){\n        if (document.activeElement && document.activeElement.tagName === 'IFRAME' && lastFocusedAd) {\n          push('ad_click', lastFocusedAd);\n          lastFocusedAd = null;\n        }\n      }, 0);\n    });\n  }\n\n  if (document.readyState === 'loading') {\n    document.addEventListener('DOMContentLoaded', function(){ scanImpressions(); setupClickTracking(); });\n  } else {\n    scanImpressions();\n    setupClickTracking();\n  }\n  setInterval(scanImpressions, 3000);\n})();\n<\/script>"},
-          {"type": "boolean", "key": "supportDocumentWrite", "value": "false"}
+          {"type": "TEMPLATE", "key": "html", "value": "<script>\n(function(){\n  if (window.__gcAdsenseTracker) return;\n  window.__gcAdsenseTracker = true;\n  var dl = window.dataLayer = window.dataLayer || [];\n  var seen = new WeakSet();\n  var lastFocusedAd = null;\n\n  function push(eventName, el) {\n    dl.push({\n      event: eventName,\n      ad_slot: el.getAttribute('data-ad-slot') || '',\n      ad_format: el.getAttribute('data-ad-format') || 'auto',\n      ad_client: el.getAttribute('data-ad-client') || ''\n    });\n  }\n\n  function scanImpressions() {\n    var ads = document.querySelectorAll('ins.adsbygoogle');\n    if (!ads.length || !('IntersectionObserver' in window)) return;\n    var io = new IntersectionObserver(function(entries){\n      entries.forEach(function(e){\n        if (e.isIntersecting && e.intersectionRatio >= 0.5 && !seen.has(e.target)) {\n          seen.add(e.target);\n          push('ad_impression', e.target);\n        }\n      });\n    }, { threshold: 0.5 });\n    ads.forEach(function(el){ if (!seen.has(el)) io.observe(el); });\n  }\n\n  function setupClickTracking() {\n    document.addEventListener('mousedown', function(ev){\n      var el = ev.target && ev.target.closest && ev.target.closest('ins.adsbygoogle');\n      lastFocusedAd = el || null;\n    }, true);\n    window.addEventListener('blur', function(){\n      setTimeout(function(){\n        if (document.activeElement && document.activeElement.tagName === 'IFRAME' && lastFocusedAd) {\n          push('ad_click', lastFocusedAd);\n          lastFocusedAd = null;\n        }\n      }, 0);\n    });\n  }\n\n  if (document.readyState === 'loading') {\n    document.addEventListener('DOMContentLoaded', function(){ scanImpressions(); setupClickTracking(); });\n  } else {\n    scanImpressions();\n    setupClickTracking();\n  }\n  setInterval(scanImpressions, 3000);\n})();\n<\/script>"},
+          {"type": "BOOLEAN", "key": "supportDocumentWrite", "value": "false"}
         ],
         "fingerprint": "0",
         "firingTriggerId": ["2147479553"],
-        "tagFiringOption": "oncePerEvent",
+        "tagFiringOption": "ONCE_PER_EVENT",
         "monitoringMetadata": {"type": "MAP"},
         "consentSettings": {"consentStatus": "NOT_SET"}
       }
@@ -301,21 +301,21 @@
         "containerId": "0",
         "triggerId": "30",
         "name": "Trigger - YouTube Link Click",
-        "type": "linkClick",
+        "type": "LINK_CLICK",
         "filter": [
           {
-            "type": "matchRegex",
+            "type": "MATCH_REGEX",
             "parameter": [
-              {"type": "template", "key": "arg0", "value": "{{Click URL}}"},
-              {"type": "template", "key": "arg1", "value": "youtube\\.com|youtu\\.be|youtube-nocookie\\.com"},
-              {"type": "boolean", "key": "ignore_case", "value": "true"}
+              {"type": "TEMPLATE", "key": "arg0", "value": "{{Click URL}}"},
+              {"type": "TEMPLATE", "key": "arg1", "value": "youtube\\.com|youtu\\.be|youtube-nocookie\\.com"},
+              {"type": "BOOLEAN", "key": "ignore_case", "value": "true"}
             ]
           }
         ],
-        "waitForTags": {"type": "boolean", "value": "false"},
-        "checkValidation": {"type": "boolean", "value": "false"},
-        "waitForTagsTimeout": {"type": "template", "value": "2000"},
-        "uniqueTriggerId": {"type": "template", "value": "0"},
+        "waitForTags": {"type": "BOOLEAN", "value": "false"},
+        "checkValidation": {"type": "BOOLEAN", "value": "false"},
+        "waitForTagsTimeout": {"type": "TEMPLATE", "value": "2000"},
+        "uniqueTriggerId": {"type": "TEMPLATE", "value": "0"},
         "fingerprint": "0"
       },
       {
@@ -323,20 +323,20 @@
         "containerId": "0",
         "triggerId": "31",
         "name": "Trigger - Outbound Link Click (non-YouTube)",
-        "type": "linkClick",
+        "type": "LINK_CLICK",
         "filter": [
           {
-            "type": "equals",
+            "type": "EQUALS",
             "parameter": [
-              {"type": "template", "key": "arg0", "value": "{{JS - Is Outbound Non-YouTube}}"},
-              {"type": "template", "key": "arg1", "value": "true"}
+              {"type": "TEMPLATE", "key": "arg0", "value": "{{JS - Is Outbound Non-YouTube}}"},
+              {"type": "TEMPLATE", "key": "arg1", "value": "true"}
             ]
           }
         ],
-        "waitForTags": {"type": "boolean", "value": "false"},
-        "checkValidation": {"type": "boolean", "value": "false"},
-        "waitForTagsTimeout": {"type": "template", "value": "2000"},
-        "uniqueTriggerId": {"type": "template", "value": "0"},
+        "waitForTags": {"type": "BOOLEAN", "value": "false"},
+        "checkValidation": {"type": "BOOLEAN", "value": "false"},
+        "waitForTagsTimeout": {"type": "TEMPLATE", "value": "2000"},
+        "uniqueTriggerId": {"type": "TEMPLATE", "value": "0"},
         "fingerprint": "0"
       },
       {
@@ -344,13 +344,13 @@
         "containerId": "0",
         "triggerId": "32",
         "name": "Trigger - Scroll Depth",
-        "type": "scrollDepth",
+        "type": "SCROLL_DEPTH",
         "parameter": [
-          {"type": "boolean", "key": "verticalThresholdOn", "value": "true"},
-          {"type": "template", "key": "verticalThresholdsPercent", "value": "25,50,75,90"},
-          {"type": "template", "key": "verticalThresholdUnits", "value": "PERCENT"},
-          {"type": "boolean", "key": "horizontalThresholdOn", "value": "false"},
-          {"type": "template", "key": "triggerStartOption", "value": "DOM_READY"}
+          {"type": "BOOLEAN", "key": "verticalThresholdOn", "value": "true"},
+          {"type": "TEMPLATE", "key": "verticalThresholdsPercent", "value": "25,50,75,90"},
+          {"type": "TEMPLATE", "key": "verticalThresholdUnits", "value": "PERCENT"},
+          {"type": "BOOLEAN", "key": "horizontalThresholdOn", "value": "false"},
+          {"type": "TEMPLATE", "key": "triggerStartOption", "value": "DOM_READY"}
         ],
         "fingerprint": "0"
       },
@@ -359,13 +359,13 @@
         "containerId": "0",
         "triggerId": "33",
         "name": "Trigger - ad_impression",
-        "type": "customEvent",
+        "type": "CUSTOM_EVENT",
         "customEventFilter": [
           {
-            "type": "equals",
+            "type": "EQUALS",
             "parameter": [
-              {"type": "template", "key": "arg0", "value": "{{_event}}"},
-              {"type": "template", "key": "arg1", "value": "ad_impression"}
+              {"type": "TEMPLATE", "key": "arg0", "value": "{{_event}}"},
+              {"type": "TEMPLATE", "key": "arg1", "value": "ad_impression"}
             ]
           }
         ],
@@ -376,13 +376,13 @@
         "containerId": "0",
         "triggerId": "34",
         "name": "Trigger - ad_click",
-        "type": "customEvent",
+        "type": "CUSTOM_EVENT",
         "customEventFilter": [
           {
-            "type": "equals",
+            "type": "EQUALS",
             "parameter": [
-              {"type": "template", "key": "arg0", "value": "{{_event}}"},
-              {"type": "template", "key": "arg1", "value": "ad_click"}
+              {"type": "TEMPLATE", "key": "arg0", "value": "{{_event}}"},
+              {"type": "TEMPLATE", "key": "arg1", "value": "ad_click"}
             ]
           }
         ],
@@ -397,7 +397,7 @@
         "name": "Const - GA4 Measurement ID",
         "type": "c",
         "parameter": [
-          {"type": "template", "key": "value", "value": "G-33CG1DMLH8"}
+          {"type": "TEMPLATE", "key": "value", "value": "G-33CG1DMLH8"}
         ],
         "fingerprint": "0",
         "formatValue": {}
@@ -409,9 +409,9 @@
         "name": "DLV - page_type",
         "type": "v",
         "parameter": [
-          {"type": "integer", "key": "dataLayerVersion", "value": "2"},
-          {"type": "boolean", "key": "setDefaultValue", "value": "false"},
-          {"type": "template", "key": "name", "value": "page_type"}
+          {"type": "INTEGER", "key": "dataLayerVersion", "value": "2"},
+          {"type": "BOOLEAN", "key": "setDefaultValue", "value": "false"},
+          {"type": "TEMPLATE", "key": "name", "value": "page_type"}
         ],
         "fingerprint": "0",
         "formatValue": {}
@@ -423,9 +423,9 @@
         "name": "DLV - article_slug",
         "type": "v",
         "parameter": [
-          {"type": "integer", "key": "dataLayerVersion", "value": "2"},
-          {"type": "boolean", "key": "setDefaultValue", "value": "false"},
-          {"type": "template", "key": "name", "value": "article_slug"}
+          {"type": "INTEGER", "key": "dataLayerVersion", "value": "2"},
+          {"type": "BOOLEAN", "key": "setDefaultValue", "value": "false"},
+          {"type": "TEMPLATE", "key": "name", "value": "article_slug"}
         ],
         "fingerprint": "0",
         "formatValue": {}
@@ -437,9 +437,9 @@
         "name": "DLV - article_title",
         "type": "v",
         "parameter": [
-          {"type": "integer", "key": "dataLayerVersion", "value": "2"},
-          {"type": "boolean", "key": "setDefaultValue", "value": "false"},
-          {"type": "template", "key": "name", "value": "article_title"}
+          {"type": "INTEGER", "key": "dataLayerVersion", "value": "2"},
+          {"type": "BOOLEAN", "key": "setDefaultValue", "value": "false"},
+          {"type": "TEMPLATE", "key": "name", "value": "article_title"}
         ],
         "fingerprint": "0",
         "formatValue": {}
@@ -451,9 +451,9 @@
         "name": "DLV - article_category",
         "type": "v",
         "parameter": [
-          {"type": "integer", "key": "dataLayerVersion", "value": "2"},
-          {"type": "boolean", "key": "setDefaultValue", "value": "false"},
-          {"type": "template", "key": "name", "value": "article_category"}
+          {"type": "INTEGER", "key": "dataLayerVersion", "value": "2"},
+          {"type": "BOOLEAN", "key": "setDefaultValue", "value": "false"},
+          {"type": "TEMPLATE", "key": "name", "value": "article_category"}
         ],
         "fingerprint": "0",
         "formatValue": {}
@@ -465,9 +465,9 @@
         "name": "DLV - ad_slot",
         "type": "v",
         "parameter": [
-          {"type": "integer", "key": "dataLayerVersion", "value": "2"},
-          {"type": "boolean", "key": "setDefaultValue", "value": "false"},
-          {"type": "template", "key": "name", "value": "ad_slot"}
+          {"type": "INTEGER", "key": "dataLayerVersion", "value": "2"},
+          {"type": "BOOLEAN", "key": "setDefaultValue", "value": "false"},
+          {"type": "TEMPLATE", "key": "name", "value": "ad_slot"}
         ],
         "fingerprint": "0",
         "formatValue": {}
@@ -479,9 +479,9 @@
         "name": "DLV - ad_format",
         "type": "v",
         "parameter": [
-          {"type": "integer", "key": "dataLayerVersion", "value": "2"},
-          {"type": "boolean", "key": "setDefaultValue", "value": "false"},
-          {"type": "template", "key": "name", "value": "ad_format"}
+          {"type": "INTEGER", "key": "dataLayerVersion", "value": "2"},
+          {"type": "BOOLEAN", "key": "setDefaultValue", "value": "false"},
+          {"type": "TEMPLATE", "key": "name", "value": "ad_format"}
         ],
         "fingerprint": "0",
         "formatValue": {}
@@ -493,9 +493,9 @@
         "name": "DLV - ad_client",
         "type": "v",
         "parameter": [
-          {"type": "integer", "key": "dataLayerVersion", "value": "2"},
-          {"type": "boolean", "key": "setDefaultValue", "value": "false"},
-          {"type": "template", "key": "name", "value": "ad_client"}
+          {"type": "INTEGER", "key": "dataLayerVersion", "value": "2"},
+          {"type": "BOOLEAN", "key": "setDefaultValue", "value": "false"},
+          {"type": "TEMPLATE", "key": "name", "value": "ad_client"}
         ],
         "fingerprint": "0",
         "formatValue": {}
@@ -507,7 +507,7 @@
         "name": "JS - Link Domain",
         "type": "jsm",
         "parameter": [
-          {"type": "template", "key": "javascript", "value": "function() { try { var u = new URL({{Click URL}}); return u.hostname.replace(/^www\\./, ''); } catch(e) { return ''; } }"}
+          {"type": "TEMPLATE", "key": "javascript", "value": "function() { try { var u = new URL({{Click URL}}); return u.hostname.replace(/^www\\./, ''); } catch(e) { return ''; } }"}
         ],
         "fingerprint": "0",
         "formatValue": {}
@@ -519,7 +519,7 @@
         "name": "JS - Is Outbound Non-YouTube",
         "type": "jsm",
         "parameter": [
-          {"type": "template", "key": "javascript", "value": "function() { try { var u = new URL({{Click URL}}); if (u.hostname === location.hostname) return false; if (!/^https?:$/.test(u.protocol)) return false; if (/(youtube\\.com|youtu\\.be|youtube-nocookie\\.com)/i.test(u.hostname)) return false; return true; } catch(e) { return false; } }"}
+          {"type": "TEMPLATE", "key": "javascript", "value": "function() { try { var u = new URL({{Click URL}}); if (u.hostname === location.hostname) return false; if (!/^https?:$/.test(u.protocol)) return false; if (/(youtube\\.com|youtu\\.be|youtube-nocookie\\.com)/i.test(u.hostname)) return false; return true; } catch(e) { return false; } }"}
         ],
         "fingerprint": "0",
         "formatValue": {}
@@ -531,7 +531,7 @@
         "name": "JS - Click Location",
         "type": "jsm",
         "parameter": [
-          {"type": "template", "key": "javascript", "value": "function() { try { var el = {{Click Element}}; if (!el || !el.closest) return 'unknown'; if (el.closest('article')) return 'article'; if (el.closest('header, .header, nav, .nav')) return 'header'; if (el.closest('footer, .footer')) return 'footer'; if (el.closest('aside, .sidebar, .toc')) return 'sidebar'; return 'page'; } catch(e) { return 'unknown'; } }"}
+          {"type": "TEMPLATE", "key": "javascript", "value": "function() { try { var el = {{Click Element}}; if (!el || !el.closest) return 'unknown'; if (el.closest('article')) return 'article'; if (el.closest('header, .header, nav, .nav')) return 'header'; if (el.closest('footer, .footer')) return 'footer'; if (el.closest('aside, .sidebar, .toc')) return 'sidebar'; return 'page'; } catch(e) { return 'unknown'; } }"}
         ],
         "fingerprint": "0",
         "formatValue": {}
@@ -543,27 +543,26 @@
         "name": "JS - Click Section Heading",
         "type": "jsm",
         "parameter": [
-          {"type": "template", "key": "javascript", "value": "function() { try { var el = {{Click Element}}; if (!el) return ''; var node = el; while (node && node !== document.body) { var prev = node.previousElementSibling; while (prev) { if (/^H[1-4]$/.test(prev.tagName)) return (prev.textContent || '').trim().slice(0, 100); prev = prev.previousElementSibling; } node = node.parentElement; } return ''; } catch(e) { return ''; } }"}
+          {"type": "TEMPLATE", "key": "javascript", "value": "function() { try { var el = {{Click Element}}; if (!el) return ''; var node = el; while (node && node !== document.body) { var prev = node.previousElementSibling; while (prev) { if (/^H[1-4]$/.test(prev.tagName)) return (prev.textContent || '').trim().slice(0, 100); prev = prev.previousElementSibling; } node = node.parentElement; } return ''; } catch(e) { return ''; } }"}
         ],
         "fingerprint": "0",
         "formatValue": {}
       }
     ],
     "builtInVariable": [
-      {"accountId": "0", "containerId": "0", "type": "pageUrl", "name": "Page URL"},
-      {"accountId": "0", "containerId": "0", "type": "pageHostname", "name": "Page Hostname"},
-      {"accountId": "0", "containerId": "0", "type": "pagePath", "name": "Page Path"},
-      {"accountId": "0", "containerId": "0", "type": "referrer", "name": "Referrer"},
-      {"accountId": "0", "containerId": "0", "type": "event", "name": "Event"},
-      {"accountId": "0", "containerId": "0", "type": "clickElement", "name": "Click Element"},
-      {"accountId": "0", "containerId": "0", "type": "clickClasses", "name": "Click Classes"},
-      {"accountId": "0", "containerId": "0", "type": "clickId", "name": "Click ID"},
-      {"accountId": "0", "containerId": "0", "type": "clickTarget", "name": "Click Target"},
-      {"accountId": "0", "containerId": "0", "type": "clickUrl", "name": "Click URL"},
-      {"accountId": "0", "containerId": "0", "type": "clickText", "name": "Click Text"},
-      {"accountId": "0", "containerId": "0", "type": "scrollDepthThreshold", "name": "Scroll Depth Threshold"},
-      {"accountId": "0", "containerId": "0", "type": "scrollDepthUnits", "name": "Scroll Depth Units"},
-      {"accountId": "0", "containerId": "0", "type": "scrollDirection", "name": "Scroll Direction"}
+      {"accountId": "0", "containerId": "0", "type": "PAGE_URL", "name": "Page URL"},
+      {"accountId": "0", "containerId": "0", "type": "PAGE_HOSTNAME", "name": "Page Hostname"},
+      {"accountId": "0", "containerId": "0", "type": "PAGE_PATH", "name": "Page Path"},
+      {"accountId": "0", "containerId": "0", "type": "REFERRER", "name": "Referrer"},
+      {"accountId": "0", "containerId": "0", "type": "EVENT", "name": "Event"},
+      {"accountId": "0", "containerId": "0", "type": "CLICK_ELEMENT", "name": "Click Element"},
+      {"accountId": "0", "containerId": "0", "type": "CLICK_CLASSES", "name": "Click Classes"},
+      {"accountId": "0", "containerId": "0", "type": "CLICK_ID", "name": "Click ID"},
+      {"accountId": "0", "containerId": "0", "type": "CLICK_TARGET", "name": "Click Target"},
+      {"accountId": "0", "containerId": "0", "type": "CLICK_URL", "name": "Click URL"},
+      {"accountId": "0", "containerId": "0", "type": "CLICK_TEXT", "name": "Click Text"},
+      {"accountId": "0", "containerId": "0", "type": "SCROLL_DEPTH_THRESHOLD", "name": "Scroll Depth Threshold"},
+      {"accountId": "0", "containerId": "0", "type": "SCROLL_DEPTH_UNITS", "name": "Scroll Depth Units"}
     ],
     "fingerprint": "0",
     "tagManagerUrl": "https://tagmanager.google.com/"
