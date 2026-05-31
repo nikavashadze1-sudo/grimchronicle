@@ -44,3 +44,6 @@ paginate = 10
     name = "About"
     url = "/about/"
     weight = 5
+[outputFormats.RSS]
+  mediaType = "application/rss+xml"
+  baseName = "feed"

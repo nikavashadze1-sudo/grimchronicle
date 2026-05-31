@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mysteries on Grim Chronicle</title>
+    <link>https://grimchronicle.com/categories/mysteries/</link>
+    <description>Recent content in Mysteries on Grim Chronicle</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://grimchronicle.com/categories/mysteries/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>D.B. Cooper: The Only Unsolved Air Piracy in American History</title>
+      <link>https://grimchronicle.com/posts/db-cooper/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://grimchronicle.com/posts/db-cooper/</guid>
+      <description>On November 24, 1971, a man calling himself Dan Cooper hijacked a Northwest Orient flight, collected $200,000 in ransom, and parachuted into the night sky over the Pacific Northwest. He was never found. This is the full story.</description>
+    </item>
+    <item>
+      <title>The Dyatlov Pass Incident: Nine Hikers Dead, No Explanation That Makes Sense</title>
+      <link>https://grimchronicle.com/posts/dyatlov-pass/</link>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://grimchronicle.com/posts/dyatlov-pass/</guid>
+      <description>In February 1959, nine experienced Soviet hikers died on a mountain in the Ural range under circumstances so bizarre that investigators officially concluded an &amp;#39;unknown compelling force&amp;#39; had killed them. The case has never been fully solved.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Chernobyl on Grim Chronicle</title>
+    <link>https://grimchronicle.com/tags/chernobyl/</link>
+    <description>Recent content in Chernobyl on Grim Chronicle</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://grimchronicle.com/tags/chernobyl/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chernobyl: The Night the Soviet Union Lied to the World</title>
+      <link>https://grimchronicle.com/posts/chernobyl/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://grimchronicle.com/posts/chernobyl/</guid>
+      <description>On April 26, 1986, reactor number four at the Chernobyl Nuclear Power Plant exploded. What followed was not just a nuclear disaster — it was one of the most catastrophic cover-ups in modern history.</description>
+    </item>
+  </channel>
+</rss>
