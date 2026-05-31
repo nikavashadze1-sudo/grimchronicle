@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Grim Chronicle</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Grim Chronicle</description>
+    <title>Unsolved Cases on Grim Chronicle</title>
+    <link>http://localhost:1313/tags/unsolved-cases/</link>
+    <description>Recent content in Unsolved Cases on Grim Chronicle</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 31 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/unsolved-cases/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Zodiac Killer: Everything We Know About America&#39;s Most Infamous Unmasked Murderer</title>
       <link>http://localhost:1313/zodiac-killer/</link>

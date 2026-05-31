@@ -6,6 +6,42 @@
     <description>Recent content in Tags on Grim Chronicle</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 31 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>California</title>
+      <link>http://localhost:1313/tags/california/</link>
+      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/california/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cold Cases</title>
+      <link>http://localhost:1313/tags/cold-cases/</link>
+      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cold-cases/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Serial Killers</title>
+      <link>http://localhost:1313/tags/serial-killers/</link>
+      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/serial-killers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unsolved Cases</title>
+      <link>http://localhost:1313/tags/unsolved-cases/</link>
+      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/unsolved-cases/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zodiac Killer</title>
+      <link>http://localhost:1313/tags/zodiac-killer/</link>
+      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/zodiac-killer/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
