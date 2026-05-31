@@ -24,6 +24,13 @@ paginate = 10
   name = "youtube"
   url = "https://youtube.com/@GrimChronicleShow"
 
+[params.assets]
+  favicon = "images/favicon.png"
+  favicon16x16 = "images/favicon.png"
+  favicon32x32 = "images/favicon.png"
+  apple_touch_icon = "images/favicon.png"
+  safari_pinned_tab = "images/favicon.png"
+
 [menu]
   [[menu.main]]
     name = "Home"
