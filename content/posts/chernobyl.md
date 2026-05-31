@@ -8,6 +8,10 @@ author = "Grim Chronicle"
 showToc = true
 TocOpen = false
 draft = false
+
+[cover]
+  image = "images/chernobyl.jpg"
+  alt = "Chernobyl Nuclear Power Plant reactor 4 after the 1986 disaster"
 +++
 
 At 1:23 AM on April 26, 1986, reactor number four at the Chernobyl Nuclear Power Plant exploded with a force that blew the 1,000-ton reactor lid clean off its housing. It was the worst nuclear accident in human history — and the Soviet government's first instinct was to lie about it.

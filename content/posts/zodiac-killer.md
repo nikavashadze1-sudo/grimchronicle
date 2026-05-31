@@ -8,6 +8,10 @@ author = "Grim Chronicle"
 showToc = true
 TocOpen = false
 draft = false
+
+[cover]
+  image = "images/zodiac-killer.jpg"
+  alt = "Zodiac Killer cipher letter sent to California police in the late 1960s"
 +++
 
 In the late 1960s, a killer stalked the roads and lovers' lanes of Northern California. He didn't just murder — he *performed*. He sent coded ciphers to newspapers, taunted police with cryptic letters, and gave himself a name that would echo through decades of true crime history: **The Zodiac**.

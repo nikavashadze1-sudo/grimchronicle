@@ -8,6 +8,10 @@ author = "Grim Chronicle"
 showToc = true
 TocOpen = false
 draft = false
+
+[cover]
+  image = "images/enron.jpg"
+  alt = "Enron (ENRNQ) Stock Collapse Chart"
 +++
 
 In the year 2000, Enron Corporation was the seventh largest company in the United States. It employed 29,000 people. Its stock traded at $90 a share. *Fortune* magazine had named it "America's Most Innovative Company" for six consecutive years.

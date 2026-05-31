@@ -8,6 +8,10 @@ author = "Grim Chronicle"
 showToc = true
 TocOpen = false
 draft = false
+
+[cover]
+  image = "images/dyatlov-pass.jpg"
+  alt = "The hikers' tent as discovered by Soviet search teams in February 1959."
 +++
 
 On the night of February 1, 1959, nine experienced Soviet hikers cut their way out of their tent from the inside and fled into the darkness of a Ural mountain in temperatures approaching minus 30 degrees Celsius. They were found weeks later in states that defied easy explanation — some with catastrophic internal injuries but no external wounds, one missing her tongue, several with traces of radiation on their clothing, and all of them dead.

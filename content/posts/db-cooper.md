@@ -8,6 +8,10 @@ author = "Grim Chronicle"
 showToc = true
 TocOpen = false
 draft = false
+
+[cover]
+  image = "images/db-cooper.jpg"
+  alt = "FBI composite sketch of D.B. Cooper, the unidentified 1971 hijacker"
 +++
 
 On the day before Thanksgiving in 1971, a quiet, well-dressed man bought a one-way ticket for a short flight from Portland to Seattle. He ordered a bourbon and soda, lit a cigarette, and handed a flight attendant a note.
