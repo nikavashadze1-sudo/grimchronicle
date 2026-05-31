@@ -134,5 +134,33 @@
       <guid>http://localhost:1313/tags/white-collar-crime/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Dyatlov Pass</title>
+      <link>http://localhost:1313/tags/dyatlov-pass/</link>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/dyatlov-pass/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Russia</title>
+      <link>http://localhost:1313/tags/russia/</link>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/russia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unexplained Deaths</title>
+      <link>http://localhost:1313/tags/unexplained-deaths/</link>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/unexplained-deaths/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unsolved Mysteries</title>
+      <link>http://localhost:1313/tags/unsolved-mysteries/</link>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/unsolved-mysteries/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -89,5 +89,20 @@
   </url><url>
     <loc>http://localhost:1313/tags/white-collar-crime/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/dyatlov-pass/</loc>
+    <lastmod>2026-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/russia/</loc>
+    <lastmod>2026-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/dyatlov-pass/</loc>
+    <lastmod>2026-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/unexplained-deaths/</loc>
+    <lastmod>2026-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/unsolved-mysteries/</loc>
+    <lastmod>2026-05-27T00:00:00+00:00</lastmod>
   </url>
 </urlset>
