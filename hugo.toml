@@ -1,0 +1,46 @@
+baseURL = "https://grimchronicle.com"
+title = "Grim Chronicle"
+theme = "PaperMod"
+languageCode = "en-us"
+paginate = 10
+
+[params]
+  description = "History's darkest chapters — crimes, disasters and cover-ups explained."
+  author = "Grim Chronicle"
+  defaultTheme = "dark"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+[params.homeInfoParams]
+  Title = "Welcome to Grim Chronicle"
+  Content = "True crime, historical disasters and dark world events — told clearly and without compromise."
+
+[[params.socialIcons]]
+  name = "youtube"
+  url = "https://youtube.com/@GrimChronicleShow"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "True Crime"
+    url = "/categories/true-crime/"
+    weight = 2
+  [[menu.main]]
+    name = "Dark History"
+    url = "/categories/dark-history/"
+    weight = 3
+  [[menu.main]]
+    name = "Mysteries"
+    url = "/categories/mysteries/"
+    weight = 4
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 5
