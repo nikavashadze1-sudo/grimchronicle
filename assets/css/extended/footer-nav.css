@@ -1,0 +1,15 @@
+.footer-nav {
+    display: block;
+    margin-top: 0.5em;
+    font-size: 0.9em;
+}
+
+.footer-nav a {
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    color: var(--primary);
+    text-decoration: underline;
+}
