@@ -2,164 +2,164 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Grim Chronicle</title>
-    <link>https://grimchronicle.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Grim Chronicle</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 31 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://grimchronicle.com/tags/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>California</title>
-      <link>https://grimchronicle.com/tags/california/</link>
+      <link>http://localhost:1313/tags/california/</link>
       <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://grimchronicle.com/tags/california/</guid>
+      <guid>http://localhost:1313/tags/california/</guid>
       <description></description>
     </item>
     <item>
       <title>Cold Cases</title>
-      <link>https://grimchronicle.com/tags/cold-cases/</link>
+      <link>http://localhost:1313/tags/cold-cases/</link>
       <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://grimchronicle.com/tags/cold-cases/</guid>
+      <guid>http://localhost:1313/tags/cold-cases/</guid>
       <description></description>
     </item>
     <item>
       <title>Serial Killers</title>
-      <link>https://grimchronicle.com/tags/serial-killers/</link>
+      <link>http://localhost:1313/tags/serial-killers/</link>
       <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://grimchronicle.com/tags/serial-killers/</guid>
+      <guid>http://localhost:1313/tags/serial-killers/</guid>
       <description></description>
     </item>
     <item>
       <title>Unsolved Cases</title>
-      <link>https://grimchronicle.com/tags/unsolved-cases/</link>
+      <link>http://localhost:1313/tags/unsolved-cases/</link>
       <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://grimchronicle.com/tags/unsolved-cases/</guid>
+      <guid>http://localhost:1313/tags/unsolved-cases/</guid>
       <description></description>
     </item>
     <item>
       <title>Zodiac Killer</title>
-      <link>https://grimchronicle.com/tags/zodiac-killer/</link>
+      <link>http://localhost:1313/tags/zodiac-killer/</link>
       <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://grimchronicle.com/tags/zodiac-killer/</guid>
+      <guid>http://localhost:1313/tags/zodiac-killer/</guid>
       <description></description>
     </item>
     <item>
       <title>Chernobyl</title>
-      <link>https://grimchronicle.com/tags/chernobyl/</link>
+      <link>http://localhost:1313/tags/chernobyl/</link>
       <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://grimchronicle.com/tags/chernobyl/</guid>
+      <guid>http://localhost:1313/tags/chernobyl/</guid>
       <description></description>
     </item>
     <item>
       <title>Cold War</title>
-      <link>https://grimchronicle.com/tags/cold-war/</link>
+      <link>http://localhost:1313/tags/cold-war/</link>
       <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://grimchronicle.com/tags/cold-war/</guid>
+      <guid>http://localhost:1313/tags/cold-war/</guid>
       <description></description>
     </item>
     <item>
       <title>Cover-Up</title>
-      <link>https://grimchronicle.com/tags/cover-up/</link>
+      <link>http://localhost:1313/tags/cover-up/</link>
       <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://grimchronicle.com/tags/cover-up/</guid>
+      <guid>http://localhost:1313/tags/cover-up/</guid>
       <description></description>
     </item>
     <item>
       <title>Nuclear Disaster</title>
-      <link>https://grimchronicle.com/tags/nuclear-disaster/</link>
+      <link>http://localhost:1313/tags/nuclear-disaster/</link>
       <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://grimchronicle.com/tags/nuclear-disaster/</guid>
+      <guid>http://localhost:1313/tags/nuclear-disaster/</guid>
       <description></description>
     </item>
     <item>
       <title>Soviet Union</title>
-      <link>https://grimchronicle.com/tags/soviet-union/</link>
+      <link>http://localhost:1313/tags/soviet-union/</link>
       <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://grimchronicle.com/tags/soviet-union/</guid>
+      <guid>http://localhost:1313/tags/soviet-union/</guid>
       <description></description>
     </item>
     <item>
       <title>American History</title>
-      <link>https://grimchronicle.com/tags/american-history/</link>
+      <link>http://localhost:1313/tags/american-history/</link>
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://grimchronicle.com/tags/american-history/</guid>
+      <guid>http://localhost:1313/tags/american-history/</guid>
       <description></description>
     </item>
     <item>
       <title>Db Cooper</title>
-      <link>https://grimchronicle.com/tags/db-cooper/</link>
+      <link>http://localhost:1313/tags/db-cooper/</link>
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://grimchronicle.com/tags/db-cooper/</guid>
+      <guid>http://localhost:1313/tags/db-cooper/</guid>
       <description></description>
     </item>
     <item>
       <title>Fbi</title>
-      <link>https://grimchronicle.com/tags/fbi/</link>
+      <link>http://localhost:1313/tags/fbi/</link>
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://grimchronicle.com/tags/fbi/</guid>
+      <guid>http://localhost:1313/tags/fbi/</guid>
       <description></description>
     </item>
     <item>
       <title>Hijacking</title>
-      <link>https://grimchronicle.com/tags/hijacking/</link>
+      <link>http://localhost:1313/tags/hijacking/</link>
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://grimchronicle.com/tags/hijacking/</guid>
+      <guid>http://localhost:1313/tags/hijacking/</guid>
       <description></description>
     </item>
     <item>
       <title>Corporate Fraud</title>
-      <link>https://grimchronicle.com/tags/corporate-fraud/</link>
+      <link>http://localhost:1313/tags/corporate-fraud/</link>
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://grimchronicle.com/tags/corporate-fraud/</guid>
+      <guid>http://localhost:1313/tags/corporate-fraud/</guid>
       <description></description>
     </item>
     <item>
       <title>Enron</title>
-      <link>https://grimchronicle.com/tags/enron/</link>
+      <link>http://localhost:1313/tags/enron/</link>
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://grimchronicle.com/tags/enron/</guid>
+      <guid>http://localhost:1313/tags/enron/</guid>
       <description></description>
     </item>
     <item>
       <title>Financial Scandal</title>
-      <link>https://grimchronicle.com/tags/financial-scandal/</link>
+      <link>http://localhost:1313/tags/financial-scandal/</link>
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://grimchronicle.com/tags/financial-scandal/</guid>
+      <guid>http://localhost:1313/tags/financial-scandal/</guid>
       <description></description>
     </item>
     <item>
       <title>White Collar Crime</title>
-      <link>https://grimchronicle.com/tags/white-collar-crime/</link>
+      <link>http://localhost:1313/tags/white-collar-crime/</link>
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://grimchronicle.com/tags/white-collar-crime/</guid>
+      <guid>http://localhost:1313/tags/white-collar-crime/</guid>
       <description></description>
     </item>
     <item>
       <title>Dyatlov Pass</title>
-      <link>https://grimchronicle.com/tags/dyatlov-pass/</link>
+      <link>http://localhost:1313/tags/dyatlov-pass/</link>
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://grimchronicle.com/tags/dyatlov-pass/</guid>
+      <guid>http://localhost:1313/tags/dyatlov-pass/</guid>
       <description></description>
     </item>
     <item>
       <title>Russia</title>
-      <link>https://grimchronicle.com/tags/russia/</link>
+      <link>http://localhost:1313/tags/russia/</link>
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://grimchronicle.com/tags/russia/</guid>
+      <guid>http://localhost:1313/tags/russia/</guid>
       <description></description>
     </item>
     <item>
       <title>Unexplained Deaths</title>
-      <link>https://grimchronicle.com/tags/unexplained-deaths/</link>
+      <link>http://localhost:1313/tags/unexplained-deaths/</link>
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://grimchronicle.com/tags/unexplained-deaths/</guid>
+      <guid>http://localhost:1313/tags/unexplained-deaths/</guid>
       <description></description>
     </item>
     <item>
       <title>Unsolved Mysteries</title>
-      <link>https://grimchronicle.com/tags/unsolved-mysteries/</link>
+      <link>http://localhost:1313/tags/unsolved-mysteries/</link>
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://grimchronicle.com/tags/unsolved-mysteries/</guid>
+      <guid>http://localhost:1313/tags/unsolved-mysteries/</guid>
       <description></description>
     </item>
   </channel>
