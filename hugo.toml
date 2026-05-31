@@ -48,3 +48,17 @@ paginate = 10
 [outputFormats.RSS]
   mediaType = "application/rss+xml"
   baseName = "feed"
+[[menu.footer]]
+  name = "Privacy Policy"
+  url = "/privacy-policy/"
+  weight = 1
+
+[[menu.footer]]
+  name = "Terms of Service"
+  url = "/terms-of-service/"
+  weight = 2
+
+[[menu.footer]]
+  name = "Contact"
+  url = "mailto:contact@grimchronicle.com"
+  weight = 3
