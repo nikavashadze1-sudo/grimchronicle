@@ -31,6 +31,11 @@ paginate = 10
   apple_touch_icon = "images/favicon.png"
   safari_pinned_tab = "images/favicon.png"
 
+[params.label]
+  iconDark = "images/logo-dark.png"
+  iconLight = "images/logo-light.png"
+  iconHeight = 30
+
 [menu]
   [[menu.main]]
     name = "Home"

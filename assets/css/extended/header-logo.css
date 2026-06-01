@@ -1,0 +1,22 @@
+/* Theme-aware navbar logo swap.
+   Both <img> tags are rendered; CSS hides the one that doesn't match the
+   current data-theme attribute on <html>. PaperMod sets data-theme before
+   first paint via an inline script, so there's no FOUC. */
+
+.site-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Default (no data-theme yet, or data-theme="dark"): show dark-mode logo */
+.logo .logo-light {
+    display: none;
+}
+
+html[data-theme="light"] .logo .logo-dark {
+    display: none;
+}
+
+html[data-theme="light"] .logo .logo-light {
+    display: inline-block;
+}
