@@ -8,10 +8,11 @@ author = "Grim Chronicle"
 showToc = true
 TocOpen = false
 draft = false
-
 [cover]
-  image = "images/zodiac-killer.jpg"
-  alt = "Zodiac Killer cipher letter sent to California police in the late 1960s"
+    image = "/images/zodiac-killer.jpg"
+    alt = "Zodiac Killer cipher letter sent to San Francisco Chronicle 1969"
+    caption = "The Z408 cipher sent to California newspapers in August 1969. It was solved within a week."
+    relative = false
 +++
 
 In the late 1960s, a killer stalked the roads and lovers' lanes of Northern California. He didn't just murder — he *performed*. He sent coded ciphers to newspapers, taunted police with cryptic letters, and gave himself a name that would echo through decades of true crime history: **The Zodiac**.
@@ -74,11 +75,33 @@ In a follow-up letter to the *Chronicle*, the killer coined his own name for the
 
 ### The 340-Cipher — November 8, 1969
 
-The most famous unsolved cipher in American history arrived 51 years before it was cracked. A 340-symbol cryptogram mailed to the *Chronicle* resisted decades of expert cryptanalysis. It was finally decoded in December 2020 by a team of amateur codebreakers. The message contained no name — just more taunting: *"I hope you are having lots of fun in trying to catch me... I am not afraid of the gas chamber."*
+The most famous unsolved cipher in American history arrived 51 years before it was cracked. A 340-symbol cryptogram mailed to the *Chronicle* resisted decades of expert cryptanalysis. It was finally decoded in December 2020 by a team of three amateur codebreakers: David Oranchak, Sam Blake, and Jarl Van Eycke. The solution required identifying a complex transposition route that ran diagonally across the cipher grid — something no prior analysis had correctly identified.
+
+The message contained no name — just more taunting: *"I hope you are having lots of fun in trying to catch me... I am not afraid of the gas chamber."*
 
 ### The 13-Symbol Cipher — 1969
 
 A short, 13-character cipher sent alongside other letters has never been solved. To this day it remains one of the few pieces of Zodiac correspondence without a confirmed solution.
+
+---
+
+## The Timeline of Letters
+
+Understanding the sequence of the Zodiac's communications reveals a pattern investigators have studied for decades.
+
+| Date | Communication | Key detail |
+|------|--------------|------------|
+| Aug 1, 1969 | Three cipher letters (Z408) | Sent to three newspapers simultaneously |
+| Aug 7, 1969 | "This is the Zodiac speaking" | First use of his self-given name |
+| Oct 13, 1969 | Letter with Stine's shirt | Proof of Paul Stine murder |
+| Nov 8, 1969 | Z340 cipher | Not solved until 2020 |
+| Apr 20, 1970 | "I am the Zodiac" with bus bomb threat | Claimed 10 victims |
+| Jun 26, 1970 | Letter with map | Claimed bomb in school |
+| Jul 24, 1970 | "Zodiac" letter | Referenced Mikado |
+| Mar 22, 1971 | Letter to LA Times | Last confirmed letter for 3 years |
+| Jan 29, 1974 | "Exorcist" letter | Last confirmed Zodiac letter |
+
+After January 1974 — silence. The letters stopped. The Zodiac was never heard from again.
 
 ---
 
@@ -106,16 +129,44 @@ Another long-investigated suspect, Kane was connected to Darlene Ferrin through 
 
 ---
 
+## The DNA Evidence: More Complicated Than Most People Know
+
+This is the part of the Zodiac case that gets the least attention — and deserves the most.
+
+DNA was recovered from the back of stamps and envelope flaps on Zodiac letters. In theory, this should have solved everything. In practice, it has created as many problems as it resolved.
+
+**What we actually have:**
+
+The San Francisco Police Department has confirmed that a partial male DNA profile was extracted from the letters. The profile is incomplete — meaning it cannot definitively include or exclude suspects on its own. It can only be used in combination with other evidence.
+
+**The Arthur Leigh Allen problem:**
+
+When Allen's DNA was tested against the profile recovered from the letters, it did not match. This is widely cited as proof Allen was not the Zodiac. But investigators have raised a legitimate complicating factor: the letters passed through many hands before being properly preserved — postal workers, newspaper editors, police officers. The DNA on the stamps may not belong to the Zodiac at all. It may belong to someone who simply handled the envelope.
+
+**The genealogical DNA possibility:**
+
+The technology that identified the Golden State Killer in 2018 — uploading a crime scene DNA profile to genealogical databases like GEDmatch and working backward through family trees — has been discussed in connection with the Zodiac case.
+
+The problem: the Zodiac's partial profile may not be complete enough for this method to work reliably. Genealogical DNA matching requires a reasonably complete profile to narrow the family tree to a manageable number of candidates. An incomplete profile produces too many potential matches to be useful.
+
+The SFPD has not publicly confirmed whether they have attempted this approach. Investigators close to the case have suggested privately that the profile quality remains the central obstacle.
+
+**The bottom line on DNA:**
+
+The DNA evidence is neither the smoking gun it's sometimes portrayed as nor the dead end skeptics suggest. It sits in an uncomfortable middle ground — real, potentially useful, but currently insufficient to name a killer.
+
+---
+
 ## The Ciphers: What Was Solved and What Wasn't
 
 | Cipher | Symbols | Status |
 |--------|---------|--------|
 | Z408 | 408 | **Solved** — 1969, by Donald and Bettye Harden |
-| Z340 | 340 | **Solved** — December 2020, by David Oranchak's team |
+| Z340 | 340 | **Solved** — December 2020, by David Oranchak, Sam Blake, Jarl Van Eycke |
 | Z13 | 13 | **Unsolved** |
 | My Name cipher | 32 | **Unsolved** |
 
-The Z340's 2020 solution was a major breakthrough — 51 years after the letter was sent. But the message contained no name. Just more taunting from a killer who seemed to enjoy the game more than anything else.
+The Z340's 2020 solution was a major breakthrough — 51 years after the letter was sent. The solving team spent years developing custom software to test transposition routes. The solution required reading the cipher in a diagonal pattern that no previous analysis had correctly identified. But the message contained no name. Just more taunting from a killer who seemed to enjoy the game more than anything else.
 
 ---
 
@@ -123,11 +174,11 @@ The Z340's 2020 solution was a major breakthrough — 51 years after the letter 
 
 The Zodiac case fell apart for a combination of reasons that investigators have dissected for decades.
 
-**Jurisdictional confusion** was a major factor. The attacks happened across multiple counties — Solano, Napa, and San Francisco — each with separate police departments that initially failed to share information effectively.
+**Jurisdictional confusion** was a major factor. The attacks happened across multiple counties — Solano, Napa, and San Francisco — each with separate police departments that initially failed to share information effectively. By the time a coordinated task force existed, critical early investigation time had been lost.
 
-**The DNA problem** is perhaps the most frustrating. DNA was recovered from the back of stamps and envelopes on Zodiac letters. Modern testing has produced a partial profile — but it has matched no known suspect, including Arthur Leigh Allen.
+**The DNA problem** is perhaps the most frustrating — as detailed above. A partial profile exists but remains insufficient for definitive identification.
 
-**The letters stopped.** After 1974, the Zodiac went silent. Whether he died, moved, was imprisoned for another crime, or simply stopped is unknown.
+**The letters stopped.** After 1974, the Zodiac went silent. Whether he died, moved, was imprisoned for another crime, or simply stopped is unknown. Several researchers have noted that the apparent end of the letters correlates with the incarceration of certain suspects — but no definitive connection has ever been established.
 
 **The eyewitness descriptions conflicted.** Different survivors described someone slightly different each time, making a composite portrait unreliable.
 
@@ -135,7 +186,7 @@ The Zodiac case fell apart for a combination of reasons that investigators have 
 
 ## The Case Today
 
-The Zodiac case remains officially open with the San Francisco Police Department. DNA technology continues to improve — the same advances that cracked other cold cases through genealogical DNA databases could theoretically identify the Zodiac if a relative's DNA is ever uploaded to a public database.
+The Zodiac case remains officially open with the San Francisco Police Department. DNA technology continues to improve — the same advances that cracked other cold cases through genealogical DNA databases could theoretically identify the Zodiac if a relative's DNA is ever uploaded to a public database and if the existing profile is complete enough to work with.
 
 The Z340 cipher's 2020 solution proved that progress is still possible. Investigators and amateur researchers continue to work the case.
 
@@ -148,9 +199,25 @@ The crossed-circle. The coded letters. The taunting calls to police. Whoever the
 - **Confirmed victims:** 5 dead, 2 survivors
 - **Claimed victims:** 37 (unverified)
 - **Active period:** 1968–1974 (letters)
-- **Location:** Northern California
+- **Location:** Northern California (Solano, Napa, San Francisco counties)
 - **Status:** Officially unsolved
-- **DNA:** Partial profile exists, no match found
+- **DNA:** Partial profile exists — insufficient for definitive identification
+- **Z408 solved:** 1969 (Donald and Bettye Harden)
+- **Z340 solved:** December 2020 (David Oranchak, Sam Blake, Jarl Van Eycke)
+- **Z13:** Unsolved
+
+---
+
+## Sources & Further Reading
+
+- Graysmith, Robert. *Zodiac* (1986) — the foundational investigation by a San Francisco Chronicle cartoonist who worked the case in real time
+- Oranchak, David. *ZodiacKillerCiphers.net* — the most comprehensive ongoing analysis of the Zodiac's cryptograms
+- California Department of Justice — official case files (partially declassified)
+- San Francisco Police Department — Zodiac case file (officially open)
+- FBI FOIA documents on the Zodiac investigation (available via FBI Vault)
+- Hartnell, Bryan — survivor testimony, multiple published interviews
+- *San Francisco Chronicle* archives, 1969–1974 — original letter publications
+- Fincher, David (dir.). *Zodiac* (2007) — dramatization notable for its research accuracy; Graysmith served as consultant
 
 ---
 
