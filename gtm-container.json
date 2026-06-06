@@ -293,6 +293,68 @@
         "tagFiringOption": "ONCE_PER_EVENT",
         "monitoringMetadata": {"type": "MAP"},
         "consentSettings": {"consentStatus": "NOT_SET"}
+      },
+      {
+        "accountId": "0",
+        "containerId": "0",
+        "tagId": "47",
+        "name": "GA4 - video_engagement",
+        "type": "gaawe",
+        "parameter": [
+          {"type": "TEMPLATE", "key": "eventName", "value": "video_{{Video Status}}"},
+          {"type": "TEMPLATE", "key": "measurementIdOverride", "value": "{{Const - GA4 Measurement ID}}"},
+          {
+            "type": "LIST",
+            "key": "eventParameters",
+            "list": [
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "video_provider"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{Video Provider}}"}
+              ]},
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "video_title"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{Video Title}}"}
+              ]},
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "video_url"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{Video URL}}"}
+              ]},
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "video_duration"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{Video Duration}}"}
+              ]},
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "video_current_time"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{Video Current Time}}"}
+              ]},
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "video_percent"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{Video Percent}}"}
+              ]},
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "video_status"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{Video Status}}"}
+              ]},
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "page_type"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{DLV - page_type}}"}
+              ]},
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "article_slug"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{DLV - article_slug}}"}
+              ]},
+              {"type": "MAP", "map": [
+                {"type": "TEMPLATE", "key": "name", "value": "article_title"},
+                {"type": "TEMPLATE", "key": "value", "value": "{{DLV - article_title}}"}
+              ]}
+            ]
+          }
+        ],
+        "fingerprint": "0",
+        "firingTriggerId": ["35"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "monitoringMetadata": {"type": "MAP"},
+        "consentSettings": {"consentStatus": "NOT_SET"}
       }
     ],
     "trigger": [
@@ -385,6 +447,25 @@
               {"type": "TEMPLATE", "key": "arg1", "value": "ad_click"}
             ]
           }
+        ],
+        "fingerprint": "0"
+      },
+      {
+        "accountId": "0",
+        "containerId": "0",
+        "triggerId": "35",
+        "name": "Trigger - YouTube Video",
+        "type": "YOU_TUBE_VIDEO",
+        "parameter": [
+          {"type": "BOOLEAN", "key": "captureStart", "value": "true"},
+          {"type": "BOOLEAN", "key": "captureComplete", "value": "true"},
+          {"type": "BOOLEAN", "key": "captureProgress", "value": "true"},
+          {"type": "BOOLEAN", "key": "capturePause", "value": "false"},
+          {"type": "BOOLEAN", "key": "fixMissingApi", "value": "true"},
+          {"type": "BOOLEAN", "key": "enableTriggerStartOption", "value": "true"},
+          {"type": "TEMPLATE", "key": "triggerStartOption", "value": "DOM_READY"},
+          {"type": "TEMPLATE", "key": "progressThresholdsPercent", "value": "25,50,75"},
+          {"type": "TEMPLATE", "key": "videoProgressThresholdsUnits", "value": "PERCENTAGE"}
         ],
         "fingerprint": "0"
       }
@@ -562,7 +643,15 @@
       {"accountId": "0", "containerId": "0", "type": "CLICK_URL", "name": "Click URL"},
       {"accountId": "0", "containerId": "0", "type": "CLICK_TEXT", "name": "Click Text"},
       {"accountId": "0", "containerId": "0", "type": "SCROLL_DEPTH_THRESHOLD", "name": "Scroll Depth Threshold"},
-      {"accountId": "0", "containerId": "0", "type": "SCROLL_DEPTH_UNITS", "name": "Scroll Depth Units"}
+      {"accountId": "0", "containerId": "0", "type": "SCROLL_DEPTH_UNITS", "name": "Scroll Depth Units"},
+      {"accountId": "0", "containerId": "0", "type": "VIDEO_PROVIDER", "name": "Video Provider"},
+      {"accountId": "0", "containerId": "0", "type": "VIDEO_STATUS", "name": "Video Status"},
+      {"accountId": "0", "containerId": "0", "type": "VIDEO_URL", "name": "Video URL"},
+      {"accountId": "0", "containerId": "0", "type": "VIDEO_TITLE", "name": "Video Title"},
+      {"accountId": "0", "containerId": "0", "type": "VIDEO_DURATION", "name": "Video Duration"},
+      {"accountId": "0", "containerId": "0", "type": "VIDEO_CURRENT_TIME", "name": "Video Current Time"},
+      {"accountId": "0", "containerId": "0", "type": "VIDEO_PERCENT", "name": "Video Percent"},
+      {"accountId": "0", "containerId": "0", "type": "VIDEO_VISIBLE", "name": "Video Visible"}
     ],
     "fingerprint": "0",
     "tagManagerUrl": "https://tagmanager.google.com/"

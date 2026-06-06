@@ -1,0 +1,74 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "logo Grim Chronicle" [ref=e5] [cursor=pointer]:
+          - /url: http://localhost:1313/
+          - img "logo"
+          - text: Grim Chronicle
+        - button "Toggle theme" [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+      - list [ref=e14]:
+        - listitem [ref=e15]:
+          - link "Home" [ref=e16] [cursor=pointer]:
+            - /url: http://localhost:1313/
+        - listitem [ref=e17]:
+          - link "True Crime" [ref=e18] [cursor=pointer]:
+            - /url: http://localhost:1313/categories/true-crime/
+        - listitem [ref=e19]:
+          - link "Dark History" [ref=e20] [cursor=pointer]:
+            - /url: http://localhost:1313/categories/dark-history/
+        - listitem [ref=e21]:
+          - link "Mysteries" [ref=e22] [cursor=pointer]:
+            - /url: http://localhost:1313/categories/mysteries/
+        - listitem [ref=e23]:
+          - link "About" [ref=e24] [cursor=pointer]:
+            - /url: http://localhost:1313/about/
+  - main [ref=e25]:
+    - generic [ref=e26]:
+      - navigation "Breadcrumb" [ref=e27]:
+        - link "Home" [ref=e28] [cursor=pointer]:
+          - /url: /
+        - img [ref=e29]
+        - link "Categories" [ref=e31] [cursor=pointer]:
+          - /url: /categories/
+        - img [ref=e32]
+      - heading "Dark-History" [level=1] [ref=e34]
+    - article [ref=e35]:
+      - figure [ref=e36]:
+        - img "Chernobyl Nuclear Power Plant reactor 4 after the 1986 disaster" [ref=e37]
+      - 'heading "Chernobyl: The Night the Soviet Union Lied to the World" [level=2] [ref=e39]'
+      - paragraph [ref=e41]: At 1:23 AM on April 26, 1986, reactor number four at the Chernobyl Nuclear Power Plant exploded with a force that blew the 1,000-ton reactor lid clean off its housing. It was the worst nuclear accident in human history — and the Soviet government’s first instinct was to lie about it. Not just to the world. To its own people. To the firefighters it sent in without proper equipment. To the children still playing outside in radioactive rain. ...
+      - generic [ref=e42]: May 30, 2026 · 7 min · Grim Chronicle
+      - 'link "post link to Chernobyl: The Night the Soviet Union Lied to the World" [ref=e43] [cursor=pointer]':
+        - /url: http://localhost:1313/posts/chernobyl/
+    - article [ref=e44]:
+      - figure [ref=e45]:
+        - img "Enron (ENRNQ) Stock Collapse Chart" [ref=e46]
+      - 'heading "Enron: How the Biggest Corporate Fraud in History Was Hidden in Plain Sight" [level=2] [ref=e48]'
+      - paragraph [ref=e50]: In the year 2000, Enron Corporation was the seventh largest company in the United States. It employed 29,000 people. Its stock traded at $90 a share. Fortune magazine had named it “America’s Most Innovative Company” for six consecutive years. Fourteen months later, it was bankrupt. Its stock was worth 26 cents. Twenty thousand employees had lost their jobs. Thousands of ordinary workers had watched their retirement savings — invested almost entirely in Enron stock — evaporate to nothing. ...
+      - generic [ref=e51]: May 28, 2026 · 9 min · Grim Chronicle
+      - 'link "post link to Enron: How the Biggest Corporate Fraud in History Was Hidden in Plain Sight" [ref=e52] [cursor=pointer]':
+        - /url: http://localhost:1313/posts/enron/
+  - contentinfo [ref=e53]:
+    - generic [ref=e54]:
+      - text: © 2026
+      - link "Grim Chronicle" [ref=e55] [cursor=pointer]:
+        - /url: http://localhost:1313/
+    - text: ·
+    - generic [ref=e56]:
+      - text: Powered by
+      - link "Hugo" [ref=e57] [cursor=pointer]:
+        - /url: https://gohugo.io/?utm_source=papermod
+      - text: "&"
+      - link "PaperMod" [ref=e58] [cursor=pointer]:
+        - /url: https://github.com/adityatelange/hugo-PaperMod/
+    - navigation "Footer" [ref=e59]:
+      - link "Privacy Policy" [ref=e60] [cursor=pointer]:
+        - /url: http://localhost:1313/privacy-policy/
+      - text: ·
+      - link "Terms of Service" [ref=e61] [cursor=pointer]:
+        - /url: http://localhost:1313/terms-of-service/
+      - text: ·
+      - link "Contact" [ref=e62] [cursor=pointer]:
+        - /url: mailto:contact@grimchronicle.com

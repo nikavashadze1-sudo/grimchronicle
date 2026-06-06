@@ -1,0 +1,95 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "logo Grim Chronicle" [ref=e5] [cursor=pointer]:
+          - /url: http://localhost:1313/
+          - img "logo"
+          - text: Grim Chronicle
+        - button "Toggle theme" [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+      - list [ref=e14]:
+        - listitem [ref=e15]:
+          - link "Home" [ref=e16] [cursor=pointer]:
+            - /url: http://localhost:1313/
+        - listitem [ref=e17]:
+          - link "True Crime" [ref=e18] [cursor=pointer]:
+            - /url: http://localhost:1313/categories/true-crime/
+        - listitem [ref=e19]:
+          - link "Dark History" [ref=e20] [cursor=pointer]:
+            - /url: http://localhost:1313/categories/dark-history/
+        - listitem [ref=e21]:
+          - link "Mysteries" [ref=e22] [cursor=pointer]:
+            - /url: http://localhost:1313/categories/mysteries/
+        - listitem [ref=e23]:
+          - link "About" [ref=e24] [cursor=pointer]:
+            - /url: http://localhost:1313/about/
+  - main [ref=e25]:
+    - article [ref=e26]:
+      - heading "Welcome to Grim Chronicle" [level=1] [ref=e28]
+      - paragraph [ref=e30]: True crime, historical disasters and dark world events — told clearly and without compromise.
+      - link "Youtube" [ref=e33] [cursor=pointer]:
+        - /url: https://youtube.com/@GrimChronicleShow
+        - img [ref=e34]
+    - article [ref=e36]:
+      - figure [ref=e37]:
+        - img "Zodiac Killer cipher letter sent to California police in the late 1960s" [ref=e38]
+      - 'heading "The Zodiac Killer: Everything We Know About America''s Most Infamous Unmasked Murderer" [level=2] [ref=e40]'
+      - paragraph [ref=e42]: "In the late 1960s, a killer stalked the roads and lovers’ lanes of Northern California. He didn’t just murder — he performed. He sent coded ciphers to newspapers, taunted police with cryptic letters, and gave himself a name that would echo through decades of true crime history: The Zodiac. More than 50 years later, his identity remains officially unknown. No arrest was ever made. No conviction was ever secured. The Zodiac Killer is one of the most investigated cold cases in American history — and one of the most frustratingly unresolved. ..."
+      - generic [ref=e43]: May 31, 2026 · 7 min · Grim Chronicle
+      - 'link "post link to The Zodiac Killer: Everything We Know About America''s Most Infamous Unmasked Murderer" [ref=e44] [cursor=pointer]':
+        - /url: http://localhost:1313/posts/zodiac-killer/
+    - article [ref=e45]:
+      - figure [ref=e46]:
+        - img "Chernobyl Nuclear Power Plant reactor 4 after the 1986 disaster" [ref=e47]
+      - 'heading "Chernobyl: The Night the Soviet Union Lied to the World" [level=2] [ref=e49]'
+      - paragraph [ref=e51]: At 1:23 AM on April 26, 1986, reactor number four at the Chernobyl Nuclear Power Plant exploded with a force that blew the 1,000-ton reactor lid clean off its housing. It was the worst nuclear accident in human history — and the Soviet government’s first instinct was to lie about it. Not just to the world. To its own people. To the firefighters it sent in without proper equipment. To the children still playing outside in radioactive rain. ...
+      - generic [ref=e52]: May 30, 2026 · 7 min · Grim Chronicle
+      - 'link "post link to Chernobyl: The Night the Soviet Union Lied to the World" [ref=e53] [cursor=pointer]':
+        - /url: http://localhost:1313/posts/chernobyl/
+    - article [ref=e54]:
+      - figure [ref=e55]:
+        - img "FBI composite sketch of D.B. Cooper, the unidentified 1971 hijacker" [ref=e56]
+      - 'heading "D.B. Cooper: The Only Unsolved Air Piracy in American History" [level=2] [ref=e58]'
+      - paragraph [ref=e60]: On the day before Thanksgiving in 1971, a quiet, well-dressed man bought a one-way ticket for a short flight from Portland to Seattle. He ordered a bourbon and soda, lit a cigarette, and handed a flight attendant a note. The note said he had a bomb. What followed was the only unsolved case of air piracy in American aviation history — a brazen, meticulously executed hijacking that has captivated investigators, amateur sleuths, and the public for over 50 years. The hijacker’s name was almost certainly not D.B. Cooper. But that’s what the world came to call him. And despite one of the longest-running FBI investigations in history, nobody knows who he really was. ...
+      - generic [ref=e61]: May 29, 2026 · 8 min · Grim Chronicle
+      - 'link "post link to D.B. Cooper: The Only Unsolved Air Piracy in American History" [ref=e62] [cursor=pointer]':
+        - /url: http://localhost:1313/posts/db-cooper/
+    - article [ref=e63]:
+      - figure [ref=e64]:
+        - img "Enron (ENRNQ) Stock Collapse Chart" [ref=e65]
+      - 'heading "Enron: How the Biggest Corporate Fraud in History Was Hidden in Plain Sight" [level=2] [ref=e67]'
+      - paragraph [ref=e69]: In the year 2000, Enron Corporation was the seventh largest company in the United States. It employed 29,000 people. Its stock traded at $90 a share. Fortune magazine had named it “America’s Most Innovative Company” for six consecutive years. Fourteen months later, it was bankrupt. Its stock was worth 26 cents. Twenty thousand employees had lost their jobs. Thousands of ordinary workers had watched their retirement savings — invested almost entirely in Enron stock — evaporate to nothing. ...
+      - generic [ref=e70]: May 28, 2026 · 9 min · Grim Chronicle
+      - 'link "post link to Enron: How the Biggest Corporate Fraud in History Was Hidden in Plain Sight" [ref=e71] [cursor=pointer]':
+        - /url: http://localhost:1313/posts/enron/
+    - article [ref=e72]:
+      - figure [ref=e73]:
+        - img "The hikers' tent as discovered by Soviet search teams in February 1959." [ref=e74]
+      - 'heading "The Dyatlov Pass Incident: Nine Hikers Dead, No Explanation That Makes Sense" [level=2] [ref=e76]'
+      - paragraph [ref=e78]: On the night of February 1, 1959, nine experienced Soviet hikers cut their way out of their tent from the inside and fled into the darkness of a Ural mountain in temperatures approaching minus 30 degrees Celsius. They were found weeks later in states that defied easy explanation — some with catastrophic internal injuries but no external wounds, one missing her tongue, several with traces of radiation on their clothing, and all of them dead. ...
+      - generic [ref=e79]: May 27, 2026 · 9 min · Grim Chronicle
+      - 'link "post link to The Dyatlov Pass Incident: Nine Hikers Dead, No Explanation That Makes Sense" [ref=e80] [cursor=pointer]':
+        - /url: http://localhost:1313/posts/dyatlov-pass/
+  - contentinfo [ref=e81]:
+    - generic [ref=e82]:
+      - text: © 2026
+      - link "Grim Chronicle" [ref=e83] [cursor=pointer]:
+        - /url: http://localhost:1313/
+    - text: ·
+    - generic [ref=e84]:
+      - text: Powered by
+      - link "Hugo" [ref=e85] [cursor=pointer]:
+        - /url: https://gohugo.io/?utm_source=papermod
+      - text: "&"
+      - link "PaperMod" [ref=e86] [cursor=pointer]:
+        - /url: https://github.com/adityatelange/hugo-PaperMod/
+    - navigation "Footer" [ref=e87]:
+      - link "Privacy Policy" [ref=e88] [cursor=pointer]:
+        - /url: http://localhost:1313/privacy-policy/
+      - text: ·
+      - link "Terms of Service" [ref=e89] [cursor=pointer]:
+        - /url: http://localhost:1313/terms-of-service/
+      - text: ·
+      - link "Contact" [ref=e90] [cursor=pointer]:
+        - /url: mailto:contact@grimchronicle.com

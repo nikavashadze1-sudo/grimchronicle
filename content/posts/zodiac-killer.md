@@ -154,4 +154,6 @@ The crossed-circle. The coded letters. The taunting calls to police. Whoever the
 
 ---
 
-*Have a theory about the Zodiac's identity? The case file is still open — and so is the debate. Watch our full breakdown on the [GrimChronicleShow YouTube channel](https://youtube.com/@GrimChronicleShow).*
+*Have a theory about the Zodiac's identity? The case file is still open — and so is the debate. Watch our full breakdown below:*
+
+{{< youtube id="IZtDjrw2n04" title="The Zodiac Killer: Everything We Know — Grim Chronicle" >}}
