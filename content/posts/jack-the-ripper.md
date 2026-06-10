@@ -9,7 +9,7 @@ showToc = true
 TocOpen = false
 draft = false
 [cover]
-    image = "/images/jack-the-ripper.png"
+    image = "/images/jack-the-ripper.jpg"
     alt = "Dark foggy street in Victorian London Whitechapel 1888"
     caption = "Whitechapel, London, 1888. The streets where Jack the Ripper operated."
     relative = false
