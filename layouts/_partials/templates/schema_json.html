@@ -1,0 +1,120 @@
+{{- /* Project override of PaperMod's schema_json.html.
+       Upstream BreadcrumbList builder used `newScratch` + `site.GetPage`
+       on accumulated paths that ended up as "posts//", "categories//",
+       which hangs Hugo 0.162 production builds (35+ min on Cloudflare Pages).
+       This version walks .Parent directly — no GetPage, no scratch. */ -}}
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{{- ( site.Params.schema.publisherType | default "Organization") | title -}}",
+  "name": {{ site.Title }},
+  "url": {{ site.Home.Permalink }},
+  "description": {{ site.Params.description | plainify | truncate 180 | safeHTML }},
+  {{- if (eq site.Params.schema.publisherType "Person") }}
+  "image": {{ site.Params.assets.favicon | default "favicon.ico" | absURL }},
+  {{- else }}
+  "logo": {{ site.Params.assets.favicon | default "favicon.ico" | absURL }},
+  {{- end }}
+  "sameAs": [
+    {{- if site.Params.schema.sameAs }}
+      {{ range $i, $e := site.Params.schema.sameAs }}{{ if $i }}, {{ end }}{{ trim $e " " }}{{ end }}
+    {{- else}}
+      {{ range $i, $e := site.Params.SocialIcons }}{{ if $i }}, {{ end }}{{ trim $e.url " " | safeURL }}{{ end }}
+    {{- end}}
+  ]
+}
+</script>
+{{- else if (or .IsPage .IsSection) }}
+{{- /* Walk up from current page to site.Home, then emit breadcrumbs in order */ -}}
+{{- $crumbs := slice . -}}
+{{- $parent := .Parent -}}
+{{- range seq 1 10 -}}
+  {{- if and $parent (ne $parent site.Home) -}}
+    {{- $crumbs = $crumbs | append $parent -}}
+    {{- $parent = $parent.Parent -}}
+  {{- end -}}
+{{- end -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": {{ site.Title }},
+      "item": {{ site.Home.Permalink | safeHTML }}
+    }
+    {{- range $i, $p := (collections.Reverse $crumbs) -}}
+      ,{
+        "@type": "ListItem",
+        "position": {{ add $i 2 }},
+        "name": {{ $p.Name }},
+        "item": {{ $p.Permalink | safeHTML }}
+      }
+    {{- end }}
+  ]
+}
+</script>
+{{- if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ .Title | plainify}},
+  "name": "{{ .Title | plainify }}",
+  "description": {{ with .Description | plainify }}{{ . }}{{ else }}{{ .Summary | plainify  }}{{ end -}},
+  "keywords": [
+    {{- if .Params.keywords }}
+    {{ range $i, $e := .Params.keywords }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}
+    {{- else }}
+    {{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}
+    {{- end }}
+  ],
+  "wordCount" : "{{ .WordCount }}",
+  "inLanguage": {{ .Language.Lang | default "en-us" }},
+  {{ if .Params.cover.image -}}
+  "image":
+    {{- if (ne .Params.cover.relative true) -}}
+    {{ .Params.cover.image | absURL }},
+    {{- else -}}
+    {{ (path.Join .RelPermalink .Params.cover.image ) | absURL }},
+    {{- end}}
+  {{- end -}}
+  "datePublished": {{ .PublishDate }},
+  "dateModified": {{ .Lastmod }},
+  {{- with (.Params.author | default site.Params.author) }}
+  "author":
+    {{- if (or (eq (printf "%T" .) "[]string") (eq (printf "%T" .) "[]interface {}")) -}}
+  [{{- range $i, $v := . -}}
+  {{- if $i }}, {{end -}}
+  {
+    "@type": "Person",
+    "name": {{ $v }}
+  }
+  {{- end }}],
+    {{- else -}}
+  {
+    "@type": "Person",
+    "name": {{ . }}
+  },
+    {{- end -}}
+  {{- end }}
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ .Permalink | safeHTML }}
+  },
+  "publisher": {
+    "@type": "{{- ( site.Params.schema.publisherType | default "Organization") | title -}}",
+    "name": {{ site.Title }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ site.Params.assets.favicon | default "favicon.ico" | absURL }}
+    }
+  }
+}
+</script>
+{{- end }}{{/* .IsPage end */}}
+
+{{- end -}}

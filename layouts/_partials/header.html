@@ -92,7 +92,13 @@
             {{- range site.Menus.main }}
             {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
             {{- $page_url:= $currentPage.Permalink | absLangURL }}
-            {{- $is_search := eq (site.GetPage .KeyName).Layout `search` }}
+            {{- /* Skip stock PaperMod's `site.GetPage .KeyName` lookup — it does
+                   fuzzy title matching and fails with "ambiguous reference" when
+                   a tag and a category share a slug (e.g. tag "true crime" +
+                   category "true-crime" both auto-title as "True Crime").
+                   The user has no search page in their menu, so $is_search is
+                   always false. */ -}}
+            {{- $is_search := false }}
             <li>
                 <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
                 {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
